@@ -12,19 +12,19 @@ MIT iQuHACK (Interdisciplinary Quantum Hackathon) is Massachusetts Institute of 
 
 The 2026 edition (seventh iteration), held from January 30 to February 1, 2026, focused heavily on scalable quantum architectures and hybrid classical-quantum optimization models. This repository serves as the definitive engineering log, source code archive, and theoretical documentation for the deployment developed during the BlueQubit challenge track.
 
-```text
+
 ## Technical Architecture & Repository Structure
 
 ```text
-├── config/                  # Hardware backend and simulator configurations
-├── docs/                    # Theoretical frameworks and mathematical derivations
-├── notebooks/               # Exploratory quantum computational workflows
-├── src/                     # Production-grade source code
-│   ├── algorithms/          # Quantum circuit ansatz and optimization loops
-│   └── utils/               # State vector analysis and tensor processing tools
-├── tests/                   # Unit tests for quantum gate operations
-├── LICENSE                  # MIT License details
-└── README.md                # Repository documentation
+
+root/
+├── seminar/
+├── problem sets/
+├── assets/
+│   ├── docs/
+│   ├── solution/
+│   └── metadata/
+└── README.md
 
 ```
 
